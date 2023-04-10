@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(119,136,153);
+}
+
+.tabs {
+  height: 6rem;
+  width: 60rem;
+  background-color: rgb(220,220,220);
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.tab:hover {
+  cursor: pointer;
+  color: rgb(153, 143, 0);
+}
+
+.page-container {
+  height: 40rem;
+  width: 60rem;
+  border-radius: 2rem;
+  background-color: rgb(220,220,220);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurant-front {
+  height: 17rem;
+  margin-bottom: 1.5rem;
+}
+
+.headline {
+  font-size: xx-large;
+  margin-bottom: 1.5rem;
+}
+
+.page-text {
+  width: 35rem;
+  font-size: larger;
+}
